@@ -1,0 +1,22 @@
+{
+    "name": "Cristina González",
+    "hello": "Hello, I am Cristina",
+    "intro1": "An aspiring web developer with a focus on frontend design and layout, complemented by skills in backend development.",
+    "intro2": "Passionate about creating visually compelling and user-friendly web experiences, I am eager to apply my creativity and technical skills to real-world projects.",
+    "intro3": "As a newcomer to the field, I am committed to continuous learning and exploration, driven by a desire to innovate and improve.",
+    "languages": "Languages",
+    "frameworks": "Frameworks and libraries",
+    "tools": "Tools",
+    "projects": "Projects",
+    "aboutMe": "About me",
+    "projectIntro": "First basic project made only with HTML and Scss. A replica of the Slack website, with fully responsive design.",
+    "projectIntro2": "First interactive project using javascript. Besides making a request to an API to show the pokemon data. This project is a pokedex where you can search for pokemon by name and also, they are sorted by stats from highest to lowest.",
+    "projectIntro3": "This project about Disney was the first one I created in React, with a call to an API created by myself with Node (the database is in MongoDB) to show the data of the movies and characters. Both have a search bar by name. It includes a user system, for registration and login, and an Area where you can save your favorite movies, accessible when you have an account created.",
+    "projectIntro4": "First project done in Angular with Typescript as language. The project makes requests to a Harry Potter API, so this project includes components that show data about the houses, books and characters of the saga. It includes a user system and an area where you can create your own character.",
+    "projectIntro5": "Final project of the Bootcamp as a team. We made a website of the brand Colmo, craft beers from northern Spain. The data shown comes from requests to the API created by us with Node (the database is stored in Mongo DB). To make the Front we have used React. The website has information about the brand, its products, a process for buying and creating beers, as well as a user system. ",
+    "view": "View Project",
+    "viewFront": "View Front End",
+    "viewBack": "View Back End"
+    
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "name": "Cristina González",
+    "hello": "Hallo, ich bin Cristina",
+    "intro1": "Eine angehende Webentwicklerin mit einem Fokus auf Frontend-Design und Layout, ebenso mit Fähigkeiten in der Backend-Entwicklung.",
+    "intro2": "Leidenschaftlich daran interessiert, visuell ansprechende und benutzerfreundliche Web-Erlebnisse zu schaffen, bin ich bestrebt, meine Kreativität und technischen Fähigkeiten in realen Projekten anzuwenden.",
+    "intro3": "Als Neuling in diesem Bereich bin ich engagiert, kontinuierlich zu lernen und zu erkunden, angetrieben von dem Wunsch zu innovieren und zu verbessern.",
+    "languages": "Sprachen",
+    "frameworks": "Frameworks und Bibliotheken",
+    "tools": "Programme",
+    "projects": "Projekte",
+    "aboutMe": "Über mich",
+    "projectIntro": "Erstes Grundprojekt, das nur mit HTML und Scss erstellt wurde. Eine Replikation der Slack-Website, mit vollständig responsivem Design.",
+    "projectIntro2": "Erstes interaktives Projekt mit Javascript. Mit einer Anfrage an eine API, um die Pokemondaten anzuzeigen. Dieses Projekt ist ein Pokedex, in dem Sie Pokemon nach Namen suchen können. Sie sind nach Statistiken von hoch nach niedrig sortiert.",
+    "projectIntro3": "Dieses Disney-Projekt war das erste, dass ich in React erstellt habe. Außerdem mit einem API-Aufruf, den ich mit Node erstellt habe (die Datenbank ist in MongoDB), um die Daten der Filme und Figuren anzuzeigen. Beide haben eine Suchleiste nach Namen. Es enthält ein Benutzersystem für die Registrierung und Anmeldung und einen Bereich, in dem man seine Lieblingsfilme speichern kann, der zugänglich ist, wenn man ein Konto erstellt hat.", 
+    "projectIntro4": "Erstes Projekt, das in Angular mit Typescript als Sprache erstellt wurde. Das Projekt stellt Anfragen an eine Harry Potter-API, so dass dieses Projekt Komponenten enthält, die Daten über die Häuser, Bücher und Charaktere der Saga anzeigen. Es enthält ein Benutzersystem und einen Bereich, in dem Sie Ihren eigenen Charakter erstellen können.",
+    "projectIntro5": "Abschließendes Teamprojekt des Bootcamps. Wir haben eine Website der Marke Colmo, Craft-Biere aus dem Norden Spaniens, erstellt. Die angezeigten Daten stammen aus Anfragen an die von uns mit Node erstellte API (die Datenbank ist in Mongo DB gespeichert). Um die Front zu erstellen, haben wir React verwendet. Die Website enthält Informationen über die Marke, ihre Produkte, einen Kauf- und Bier-Erstellungsprozess sowie ein Benutzersystem. ",
+    "view": "Projekt Ansehen",
+    "viewFront": "Front End Ansehen",
+    "viewBack": "Back End Ansehen"
+
+  }
+  

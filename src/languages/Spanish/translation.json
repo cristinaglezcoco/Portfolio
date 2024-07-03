@@ -1,0 +1,21 @@
+{
+    "name": "Cristina González",
+    "hello": "Hola, soy Cristina",
+    "intro1": "Aspirante a desarrolladora web orientada al diseño y la maquetación frontend, complementado con conocimientos de desarrollo backend.",
+    "intro2": "Apasionado por la creación de experiencias web visualmente atractivas y fáciles de usar, estoy deseosa por aplicar mi creatividad y habilidades técnicas a proyectos del mundo real.",
+    "intro3": "Como recién llegada a este campo, estoy comprometida con el aprendizaje y la exploración continua, impulsado por el deseo de innovar y mejorar.",
+    "languages": "Lenguajes",
+    "frameworks": "Frameworks y librerías",
+    "tools": "Herramientas",
+    "projects": "Proyectos",
+    "aboutMe": "Sobre mí",
+    "projectIntro": "Primer proyecto básico realizado únicamente con HTML y Scss. Una réplica de la web de Slack, con diseño totalmente responsive.",
+    "projectIntro2": "Primer proyecto interactivo usando javascript. Además de hacer una petición a una API para mostrar los datos de los pokemons. Este proyecto es una pokedex donde puedes buscar por nombre a los pokemons y además, están clasificados por estadísticas de mayor a menor.",
+    "projectIntro3": "Este proyecto sobre Disney fue el primero que hice en React, con llamada a una API creada por mi con Node (la base de datos se encuentra en MongoDB) para mostrar los datos de las películas y personajes. Ambos cuentan con una barra de búsqueda por nombre. Incluye un sistema de usuarios, para registro e inicio de sesión, y un Área dónde puedes guardar tus películas favoritas, accesibles cuando tienes una cuenta creada.",
+    "projectIntro4": "Primer proyecto realizado en Angular con Typescript como lenguaje. El proyecto realiza peticiones a una API de Harry Potter, por lo que este proyecto engloba componentes donde muestran los datos sobre las casas, libros y personajes de la saga. Incluye un sistema de usuarios y un área donde te puedes crear tu propio personaje.",
+    "projectIntro5": "Proyecto final del Bootcamp en equipo. Realizamos una página web de la marca Colmo, cervezas artesanales procedentes del norte de España. Los datos mostrados provienen de peticiones a la API creada por nosotros con Node (la base de datos está guardada en Mongo DB). Para hacer el Front hemos usado React. La página web cuenta con información sobre la marca, sus productos, un proceso de compra y creación de cervezas, además de un sistema de usuarios.",
+    "view": "Ver Proyecto",
+    "viewFront": "Ver Front End",
+    "viewBack": "Ver Back End"
+  }
+  
