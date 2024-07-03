@@ -9,11 +9,17 @@ import LinkedIn from '../../images/linkedin.png';
 import GitHub from '../../images/github.png';
 import NavComponent from "../shared/Nav";
 import Languages from "./Languages";
+import { motion } from 'framer-motion';
 
 
 function Home() {
 
     const { t } = useTranslation();
+
+    const variants = {
+      hidden: { opacity: 0, x: -100 },
+      visible: { opacity: 1, x: 0 },
+  };
 
   return (
     <>
@@ -31,14 +37,15 @@ function Home() {
                     <img src={GitHub}alt='GitHub' />
                 </a>
             </div>
+
             <Languages/>
         </div>
 
-        <div className="home-title">
+        <motion.div className="home-title" initial="hidden" animate="visible" transition={{ duration: 0.4, delay: 0.2 }} variants={variants}>
           <h1>{t('name')}</h1>
-        </div>
+        </motion.div>
 
-        <div className="home-text">
+        <motion.div className="home-text" initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.4 }} variants={variants}>
           <h3>{t('hello')}</h3>
           <br />
           <p>{t('intro1')}</p>
@@ -46,10 +53,10 @@ function Home() {
           <p>{t('intro2')}</p>
           <br/>
           <p>{t('intro3')}</p>
-        </div>
+        </motion.div>
 
         <div className="home-skills">
-          <section className="skills-section">
+          <motion.section className="skills-section" initial="hidden" animate="visible" transition={{ duration: 0.6, delay: 0.6 }} variants={variants}>
             <h4>{t('languages')}</h4>
             <ul className="skills-list">
               <div className="list-info">
@@ -65,8 +72,8 @@ function Home() {
                 <li className="list-info__item">CSS and Scss</li>
               </div>
             </ul>
-          </section>
-          <section className="skills-section">
+          </motion.section>
+          <motion.section className="skills-section" initial="hidden" animate="visible" transition={{ duration: 0.6, delay: 0.9 }} variants={variants}>
             <h4>{t('frameworks')}</h4>
             <ul className="skills-list">
               <div className="list-info">
@@ -78,8 +85,8 @@ function Home() {
                 <li className="list-info__item">Angular</li>
               </div>
             </ul>
-          </section>
-          <section className="skills-section">
+          </motion.section>
+          <motion.section className="skills-section" initial="hidden" animate="visible" transition={{ duration: 0.6, delay: 1.2 }} variants={variants}>
             <h4>{t('tools')}</h4>
             <ul className="skills-list">
               <div className="list-info">
@@ -91,7 +98,7 @@ function Home() {
                 <li className="list-info__item">GitHub</li>
               </div>
             </ul>
-          </section>
+          </motion.section>
         </div>
 
       </div>

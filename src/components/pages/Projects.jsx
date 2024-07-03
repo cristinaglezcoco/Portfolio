@@ -13,11 +13,19 @@ import '../../styles/_projects.scss';
 import { SiMongodb, SiSass } from 'react-icons/si';
 import { FaNodeJs, FaReact } from 'react-icons/fa'
 import { BiLogoTypescript } from 'react-icons/bi';
+import { motion } from 'framer-motion';
+
 
 
 function Projects() {
 
     const { t } = useTranslation();
+
+    const variants = {
+        hidden: { opacity: 0, x: -100 },
+        visible: { opacity: 1, x: 0 },
+    };
+
 
   return (
 
@@ -32,7 +40,8 @@ function Projects() {
 
         <div className='container-pojects__content'>
 
-            <section className='content-projects'>
+            <motion.section className='content-projects' initial="hidden"
+            animate="visible" transition={{ duration: 0.6, delay: 0.2 }} variants={variants}>
                 <div className='project-upperline'>
                     <h2>Slack</h2>
                     <div className="project-tech">
@@ -45,9 +54,10 @@ function Projects() {
                 </div>
                 <p>{t('projectIntro')}</p>
                 <a href='https://github.com/cristinaglezcoco/Practica-Slack'  target="_blank" rel="noopener noreferrer">{t('view')}</a>
-            </section>
+            </motion.section>
 
-            <section className='content-projects'>
+            <motion.section className='content-projects' initial="hidden"
+            animate="visible" transition={{ duration: 0.6, delay: 0.5 }} variants={variants}>
                 <div className='project-upperline'>
                     <h2>Pokedex</h2>
                     <div className="project-tech">
@@ -61,9 +71,10 @@ function Projects() {
                 </div>
                 <p>{t('projectIntro2')}</p>
                 <a href='https://pokedex-olive-tau.vercel.app/' target="_blank" rel="noopener noreferrer" >{t('view')}</a>
-            </section>
+            </motion.section>
 
-            <section className='content-projects'>
+            <motion.section className='content-projects' initial="hidden"
+            animate="visible" transition={{ duration: 0.6, delay: 0.8 }} variants={variants}>
                 <div className='project-upperline'>
                     <h2>Disney</h2>
                     <div className="project-tech">
@@ -83,9 +94,10 @@ function Projects() {
                     <a href='https://front-end-disney.vercel.app/' target="_blank" rel="noopener noreferrer" >{t('viewFront')}</a>
                     <a href='https://github.com/cristinaglezcoco/Node-Disney' target="_blank" rel="noopener noreferrer" >{t('viewBack')}</a>
                 </div>
-            </section>
+            </motion.section>
 
-            <section className='content-projects'>
+            <motion.section className='content-projects' initial="hidden"
+            animate="visible" transition={{ duration: 0.6, delay: 1.1 }} variants={variants}>
                 <div className='project-upperline'>
                     <h2>Harry Potter</h2>
                     <div className="project-tech">
@@ -101,9 +113,10 @@ function Projects() {
                 </div>
                 <p>{t('projectIntro4')}</p>
                 <a href='https://github.com/cristinaglezcoco/Front-Harry-Potter' target="_blank" rel="noopener noreferrer" >{t('view')}</a>
-            </section>
+            </motion.section>
 
-            <section className='content-projects'>
+            <motion.section className='content-projects' initial="hidden"
+            animate="visible" transition={{ duration: 0.6, delay: 1.4 }} variants={variants}>
                 <div className='project-upperline'>
                     <h2>Cervezas Artesanales</h2>
                     <div className="project-tech">
@@ -123,7 +136,7 @@ function Projects() {
                     <a href='https://github.com/cristinaglezcoco/Front-Cervezas-Artesanales' target="_blank" rel="noopener noreferrer" >{t('viewFront')}</a>
                     <a href='https://github.com/cristinaglezcoco/Node-Cervezas-Artesanales' target="_blank" rel="noopener noreferrer" >{t('viewBack')}</a>
                 </div>
-            </section>
+            </motion.section>
 
         </div>
     </div>
