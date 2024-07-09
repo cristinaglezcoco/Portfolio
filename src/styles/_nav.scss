@@ -22,10 +22,10 @@
 
     .navbar__picture {
 
-            >img {
+        >img {
 
-                border-radius: 10%;
-            }
+            border-radius: 10%;
+        }
 
     }
 
@@ -110,15 +110,11 @@
 
         .navbar__picture {
 
-            >a {
+            >img {
 
-                >img {
-
-                    width: 90px;
-                    height: 110px;
-
-                    border-radius: 50%;
-                }
+                width: 90px;
+                height: 110px;
+                border-radius: 50%;
             }
         }
 

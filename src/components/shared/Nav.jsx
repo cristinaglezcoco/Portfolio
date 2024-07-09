@@ -16,9 +16,6 @@ function NavComponent() {
     const navigate = useNavigate();
     const location = useLocation();
 
-    const changeLanguage = (lng) => {
-      i18n.changeLanguage(lng);
-    };
 
     useEffect(() => {
         // Actualizar isProjects basado en la ubicación actual
@@ -44,7 +41,7 @@ function NavComponent() {
         <nav className="container-navbar">
            
             <div className="navbar__picture">
-                    <img src={Profile} alt="Profile" width="130" height="170" />
+                <img src={Profile} alt="Profile" width="130" height="170" />
             </div>
 
             <div className="navbar__btt">
